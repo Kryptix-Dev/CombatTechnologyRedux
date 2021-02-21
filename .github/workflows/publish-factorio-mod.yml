@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Factorio Mod Portal Publish
-      uses: shanemadden/factorio-mod-portal-publish@1.04
+      uses: shanemadden/factorio-mod-portal-publish@1.0.4
       env:
         FACTORIO_PASSWORD: ${{ secrets.FACTORIO_PASSWORD }}
         FACTORIO_USER: ${{ secrets.FACTORIO_USER }}
