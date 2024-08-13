@@ -1,9 +1,8 @@
 {
-  "name": "CombatTechnology",
-  "version": "1.0.1",
+  "name": "CombatTechnologyRedux",
+  "version": "1.0.0",
+  "title": "Combat Technology Redux",
+  "author": "Kryptronic",
   "factorio_version": "1.1",
-  "title": "Combat Technology",
-  "author": "sjlevin",
-  "homepage": "https://github.com/sjlevin/CombatTechnology",
-  "description": "Killing enemies contributes towards technology research"
+  "description": "Damage dealt to your enemies will contribute to your research.  An update to the original Combat Technology mod by sjlevin."
 }

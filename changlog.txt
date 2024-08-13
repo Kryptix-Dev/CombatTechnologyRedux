@@ -1,0 +1,9 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 08.12.2024
+  Features:
+    - Minor clean up of the code and renaming variables.
+    - Reworded and added descriptions to the mod settings.
+    - Added comments for clarity.
+  Balancing:
+    - Reworked scaling calculation to be more resonable
