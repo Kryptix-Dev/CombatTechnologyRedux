@@ -1,17 +1,26 @@
-data:extend({
-    {
-        type = "bool-setting",
-        name = "startup-unlock-tech",
-        setting_type = "startup",
-        default_value = true
+data:extend{
+
+  { name = "research-quick-start",
+    type = "bool-setting",
+    setting_type = "startup",
+    default_value = false,
+    order = 'a',   
+    },
+
+  { name = "disable-labs",
+    type = "bool-setting",
+    setting_type = "startup",
+    default_value = false,
+    order = 'b',
+    },
+
+  { name = "damage-effect-scale",
+    type = "int-setting",
+    setting_type = "startup",
+    default_value = 100,
+    minimum_value = 1,
+    maximum_value = 1000,
+    order = 'c',
     }
-})
-data:extend({
-    {
-        type = "int-setting",
-        name = "damage-effect-scale",
-        setting_type = "startup",
-        minimum_value = 1,
-        default_value = 100
-    }
-})
+
+  }

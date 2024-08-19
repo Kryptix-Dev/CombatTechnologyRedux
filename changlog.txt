@@ -2,8 +2,13 @@
 Version: 1.0.0
 Date: 08.12.2024
   Features:
-    - Minor clean up of the code and renaming variables.
-    - Reworded and added descriptions to the mod settings.
-    - Added comments for clarity.
+    - Added setting to disable lab recipe for combat-only research (good for combat focused runs)
   Balancing:
-    - Reworked scaling calculation to be more resonable
+    - Reworked scaling calculation for more reasonable results
+  Changes:
+    - Created new logo
+    - Updated mod setting descriptions
+    - General code clean-up
+    - Added comments for clarity
+  Info:
+    - How about a nice cup of Liber-tea?

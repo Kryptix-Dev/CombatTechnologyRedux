@@ -1,8 +1,13 @@
 {
-  "name": "CombatTechnologyRedux",
+  "name": "combatresearch",
+  "title": "Combat Research",
+  "description": "Damage dealt to your enemies will contribute to your technology research.\nIncludes settings to scale the effect damage has on research progress, unlocking early research options, and to disable the lab recipe.\n\n[font=default-bold][color=red]The only good bug is a dead bug[/color][/font]\n[font=default-small]An update to the original CombatTechnology mod by sjlevin.[/font]",
   "version": "1.0.0",
-  "title": "Combat Technology Redux",
   "author": "Kryptronic",
+  "homepage": "https://github.com/kryptronicdx/combatresearch",
   "factorio_version": "1.1",
-  "description": "Damage dealt to your enemies will contribute to your research.  An update to the original Combat Technology mod by sjlevin."
+  "dependencies": [
+        "base >= 1.1.0",
+        "! CombatTechnology"
+    ]
 }
