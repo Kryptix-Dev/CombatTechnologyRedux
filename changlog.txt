@@ -1,6 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 11. 12. 2024
+  Changes:
+    - Updated to Factorio 2.0 base
+    - Tested with Space Age DLC
+  Info:
+    - "Know your gear inside and out.  Be faster, smarter, and better armed than the bugs.  Pay attention.  You know what to do, KILL THEM ALL!" -General John "Johnny" Rico
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: 08.12.2024
+Date: 08. 12. 2024
   Features:
     - Added setting to disable lab recipe for combat-only research (good for combat focused runs)
   Balancing:

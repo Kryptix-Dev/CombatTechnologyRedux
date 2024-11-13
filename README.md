@@ -6,11 +6,11 @@ Damage dealt to your enemies will contribute to your technology research.  Inclu
 
 A fork and update to the original [CombatTechnology](https://github.com/sjlevin/CombatTechnology) mod by sjlevin.
 
-- Version: 1.0.0
+- Version: 1.1.0
 - Mod Page: https://mods.factorio.com/mod/combatresearch
-- Factorio Version: 1.1
+- Factorio Version: 2.0
 - Dependencies
-	- Base >= 1.1.0
+	- Base >= 2.0.0
 - Incompatible With
 	- [CombatTechnology](https://mods.factorio.com/mod/CombatTechnology)
 

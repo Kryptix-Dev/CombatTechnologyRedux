@@ -3,10 +3,10 @@ local function onInit()
   if settings.startup["research-quick-start"].value then
     for index, force in pairs(game.forces) do
     force.technologies["automation"].researched = true
-    force.technologies["gun_turret"].researched = true
+    force.technologies["gun-turret"].researched = true
     force.technologies["logistics"].researched = true
     force.technologies["military"].researched = true
-    force.technologies["stone_wall"].researched = true
+    force.technologies["stone-wall"].researched = true
     end
   end
 end
@@ -37,7 +37,7 @@ function onDeathHandler(event)
   local researchUnitCost = researchIngredientCount * (player.current_research.research_unit_energy / 60)
   local researchTotalCost = researchUnitCost * player.current_research.research_unit_count
   local damageEffectScale = settings.startup["damage-effect-scale"].value / 400
-  local researchDelta = (entity.prototype.max_health / researchTotalCost) * damageEffectScale
+  local researchDelta = (entity.max_health / researchTotalCost) * damageEffectScale
   local researchProgress = player.research_progress + researchDelta
 
   -- Check current research task and mark completed if true, or continue research

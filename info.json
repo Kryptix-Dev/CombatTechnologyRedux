@@ -1,13 +1,13 @@
 {
   "name": "combatresearch",
   "title": "Combat Research",
-  "description": "Damage dealt to your enemies will contribute to your technology research.\nIncludes settings to scale the effect damage has on research progress, unlocking early research options, and to disable the lab recipe.\n\n[font=default-bold][color=red]The only good bug is a dead bug[/color][/font]\n[font=default-small]An update to the original CombatTechnology mod by sjlevin.[/font]",
-  "version": "1.0.0",
+  "description": "Damage dealt to your enemies will contribute to your technology research.\nIncludes settings to scale the effect damage has on research progress, unlocking early research options, and to disable the lab recipe.\n\nThe only good bug is a dead bug!",
+  "version": "1.1.0",
   "author": "Kryptronic",
   "homepage": "https://github.com/kryptronicdx/combatresearch",
-  "factorio_version": "1.1",
+  "factorio_version": "2.0",
   "dependencies": [
-        "base >= 1.1.0",
+        "base >= 2.0.0",
         "! CombatTechnology"
-    ]
+  ]
 }
