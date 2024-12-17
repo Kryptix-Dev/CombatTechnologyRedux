@@ -14,13 +14,22 @@ data:extend{
     order = 'b',
     },
 
-  { name = "damage-effect-scale",
+  { name = "damage-scale",
     type = "int-setting",
     setting_type = "startup",
     default_value = 100,
     minimum_value = 1,
     maximum_value = 1000,
     order = 'c',
+    },
+  
+  { name = "demolisher-scale",
+    type = "int-setting",
+    setting_type = "startup",
+    default_value = 100,
+    minimum_value = 1,
+    maximum_value = 1000,
+    order = 'd',
     }
-
+    
   }

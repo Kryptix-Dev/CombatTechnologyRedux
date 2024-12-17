@@ -36,8 +36,18 @@ function onDeathHandler(event)
   -- damageEffectScale with the 400 divisor primarily effects the calculation 
   local researchUnitCost = researchIngredientCount * (player.current_research.research_unit_energy / 60)
   local researchTotalCost = researchUnitCost * player.current_research.research_unit_count
-  local damageEffectScale = settings.startup["damage-effect-scale"].value / 400
-  local researchDelta = (entity.max_health / researchTotalCost) * damageEffectScale
+  local damageEffectScale = settings.startup["damage-scale"].value / 400
+  
+  local researchDelta = 0
+  if (prototypes.entity == "small-demolisher") then
+    researchDelta = ((entity.max_health / ("demolisher-scale" * 0.3)) / researchTotalCost) * damageEffectScale
+  elseif (prototypes.entity == "medium-demolisher") then
+    researchDelta = ((entity.max_health / ("demolisher-scale" * 0.5)) / researchTotalCost) * damageEffectScale
+  elseif (prototypes.entity == "big-demolisher") then
+    researchDelta = ((entity.max_health / "demolisher-scale") / researchTotalCost) * damageEffectScale
+  else
+    researchDelta = (entity.max_health / researchTotalCost) * damageEffectScale
+  end
   local researchProgress = player.research_progress + researchDelta
 
   -- Check current research task and mark completed if true, or continue research

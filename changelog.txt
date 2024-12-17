@@ -1,16 +1,29 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 12. 16. 2024
+  Features:
+    - Added new setting to separately adjust Demolisher scaling compared to other enemy types  
+  Balancing:
+    - Added additional calculations for Demolishers due to large health pools
+  Changes:
+    - Adjusted variable, settings, and description wording for clearer messaging
+    - Added notes to scale settings to clearly describe what adjusting the value does
+  Info:
+    - "The xenos must be purged, for the stars are humanity’s birthright." -Psalms Hermeticus 46 
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 11. 12. 2024
   Changes:
     - Updated to Factorio 2.0 base
     - Tested with Space Age DLC
   Info:
-    - "Know your gear inside and out.  Be faster, smarter, and better armed than the bugs.  Pay attention.  You know what to do, KILL THEM ALL!" -General John "Johnny" Rico
+    - "Know your gear inside and out.  Be faster, smarter, and better armed than the bugs.
+    - Pay attention.  You know what to do, KILL THEM ALL!" -General John "Johnny" Rico
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 08. 12. 2024
   Features:
-    - Added setting to disable lab recipe for combat-only research (good for combat focused runs)
+    - Added setting to disable lab recipe for combat-only research
   Balancing:
     - Reworked scaling calculation for more reasonable results
   Changes:
