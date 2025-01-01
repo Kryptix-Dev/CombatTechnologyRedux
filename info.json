@@ -2,7 +2,7 @@
   "name": "combatresearch",
   "title": "Combat Research",
   "description": "Damage dealt to your enemies will contribute to your technology research.  Includes settings to scale the effect damage has on research progress, unlocking early research options, and to disable the lab recipe.\n\nThe only good bug is a dead bug!",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Kryptronic",
   "homepage": "https://github.com/kryptronicdx/combatresearch",
   "factorio_version": "2.0",

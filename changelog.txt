@@ -1,4 +1,19 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 01. 01. 2025
+  Changes:
+    - Removed lab research speed upgrades when lab is disabled
+    - Lab receipe hidden in Factoriopedia to reflect being disabled
+    - When early research is enabled, the automatic technologies are also unlocked
+    - Added an updated Biolab recipe to remove the lab crafting item when labs are disabled
+  Bugfixes:
+    - Fixed option to disable labs, which will now hide labs from player or machine receipe selection
+    - Fixed code issue with research completion that caused compatibility issues with the Prodictivity Research For Everyone mod
+  Info:
+    - Thank you CrazyMy for the report on the research completion issue
+    - Thank you Semenar and Xorimuth for the feedback and fix
+    - "Run for it? Running's not a plan! Running's what you do once a plan fails!" -Earl Bassett
+---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 12. 16. 2024
   Features:
@@ -9,6 +24,7 @@ Date: 12. 16. 2024
     - Adjusted variable, settings, and description wording for clearer messaging
     - Added notes to scale settings to clearly describe what adjusting the value does
   Info:
+    - Thank you uwene for the report!
     - "The xenos must be purged, for the stars are humanity’s birthright." -Psalms Hermeticus 46 
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
@@ -17,8 +33,7 @@ Date: 11. 12. 2024
     - Updated to Factorio 2.0 base
     - Tested with Space Age DLC
   Info:
-    - "Know your gear inside and out.  Be faster, smarter, and better armed than the bugs.
-    - Pay attention.  You know what to do, KILL THEM ALL!" -General John "Johnny" Rico
+    - "Know your gear inside and out.  Be faster, smarter, and better armed than the bugs.  Pay attention.  You know what to do, KILL THEM ALL!" -General John "Johnny" Rico
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 08. 12. 2024

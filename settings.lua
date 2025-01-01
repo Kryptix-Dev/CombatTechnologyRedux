@@ -1,5 +1,4 @@
 data:extend{
-
   { name = "research-quick-start",
     type = "bool-setting",
     setting_type = "startup",
@@ -7,7 +6,7 @@ data:extend{
     order = 'a',   
     },
 
-  { name = "disable-labs",
+  { name = "disable-lab",
     type = "bool-setting",
     setting_type = "startup",
     default_value = false,
@@ -23,7 +22,7 @@ data:extend{
     order = 'c',
     },
   
-  { name = "demolisher-scale",
+  { name = "demolisher-damage-scale",
     type = "int-setting",
     setting_type = "startup",
     default_value = 100,
@@ -31,5 +30,4 @@ data:extend{
     maximum_value = 1000,
     order = 'd',
     }
-    
-  }
+}
