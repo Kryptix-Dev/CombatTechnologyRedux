@@ -3,12 +3,12 @@ Version: 1.1.2
 Date: 01. 01. 2025
   Changes:
     - Removed lab research speed upgrades when lab is disabled
-    - Lab receipe hidden in Factoriopedia to reflect being disabled
+    - Lab recipe hidden in Factoriopedia to reflect being disabled
     - When early research is enabled, the automatic technologies are also unlocked
     - Added an updated Biolab recipe to remove the lab crafting item when labs are disabled
   Bugfixes:
     - Fixed option to disable labs, which will now hide labs from player or machine receipe selection
-    - Fixed code issue with research completion that caused compatibility issues with the Prodictivity Research For Everyone mod
+    - Fixed code issue with research completion that caused compatibility issues with the Productivity Research For Everyone mod
   Info:
     - Thank you CrazyMy for the report on the research completion issue
     - Thank you Semenar and Xorimuth for the feedback and fix
